@@ -1,5 +1,5 @@
 {
-  "name": "parcel-project-template",
+  "name": "goit-js-hw-0",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://kpapura.github.io/goit-js-hw-08",
@@ -17,7 +17,8 @@
     "url": "https://github.com/kpapura/goit-js-hw-08/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.13.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
