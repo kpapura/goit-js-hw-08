@@ -9,13 +9,7 @@ form.addEventListener('input', throttle(takeInputToLS, 500));
 function takeInputToLS(e) {
   obj.email = form.elements.email.value;
   obj.message = form.elements.message.value;
-    
-  if (obj.email === '') {
-    delete obj.email;
-  }
-  if (obj.message === '') {
-    delete obj.message;
-  }
+  
   getValueToLS(obj);
 }
 
